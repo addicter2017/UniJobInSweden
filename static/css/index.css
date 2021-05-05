@@ -1,0 +1,82 @@
+/*.container-fluid .row {*/
+/*    display: flex;*/
+/*    background-color: #f9f8fd;*/
+/*    height: 480px;*/
+/*    align-items: center;*/
+/*}*/
+.masthead{
+    padding: 90px 0 110px;
+}
+
+body > div:nth-child(2){
+    display: flex;
+    height: 480px;
+    background-color: #5c2c4c;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(2, 0, 49), rgb(109, 51, 83));
+}
+
+body > div.jumbotron.masthead > div > h1 {
+    color: white;
+    text-align: center;
+}
+
+body > div.jumbotron.masthead > div > p {
+    color: white;
+    text-align: center;
+}
+
+body > div.container.projects > div >.col-lg-3 {
+
+    margin-left: 30px;
+    margin-right: 30px;
+    /*padding-top: 4px;*/
+    padding-left: 4px;
+    padding-right: 5px;
+    height: 250px;
+    width: 200px;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+
+}
+
+
+body > div.container.projects > .row {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    /*text-align: center;*/
+}
+
+/*body > div.container.projects > div > div:nth-child(1) > div.logo {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    padding-left: 5px;*/
+/*    padding-right: 5px;*/
+/*    padding-top: 5px;*/
+/*    padding-bottom: 5px;*/
+/*    height: 200px;*/
+/*    width: 190px;*/
+
+/*}*/
+body > div.container.projects > div > div:nth-child(1) > div.description {
+    width: 100%;
+
+}
+p {
+margin-right: 0;
+word-wrap:break-word;
+word-break:break-all;
+overflow: hidden;/*这个参数根据需要来绝对要不要*/
+}
+.logo {
+    padding-top: 5px;
+    height: 200px;
+    width: 190px;
+}
+.description {
+    padding-left: 3px;
+    padding-right: 6px;
+
+}
